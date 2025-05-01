@@ -28,13 +28,13 @@ const Header = () => {
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-3' : 'bg-rota-darkBlue bg-opacity-90 py-5'
+        isScrolled ? 'bg-white shadow-md py-3' : 'bg-rota-darkBlue py-5'
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <a href="#home" className="relative z-10">
           <img 
-            src={isScrolled ? "/lovable-uploads/b0212289-7efa-459c-ba75-589929f6b90b.png" : "/lovable-uploads/64c331e6-ef73-44e5-9344-b5757fe868f5.png"} 
+            src="/lovable-uploads/64c331e6-ef73-44e5-9344-b5757fe868f5.png" 
             alt="Rota Digital" 
             className="h-10 md:h-12"
           />
@@ -50,7 +50,7 @@ const Header = () => {
             href="https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital."
             target="_blank" 
             rel="noopener noreferrer" 
-            className="btn btn-primary py-2 px-4"
+            className="btn btn-primary py-2 px-4 shadow-md hover:shadow-lg"
           >
             Fale Conosco
           </a>
@@ -63,8 +63,8 @@ const Header = () => {
           aria-label="Menu"
         >
           {isMenuOpen ? 
-            <X className={isScrolled ? "h-6 w-6 text-rota-darkBlue" : "h-6 w-6 text-white"} /> : 
-            <Menu className={isScrolled ? "h-6 w-6 text-rota-darkBlue" : "h-6 w-6 text-white"} />
+            <X className="h-6 w-6 text-white" /> : 
+            <Menu className="h-6 w-6 text-white" />
           }
         </button>
 

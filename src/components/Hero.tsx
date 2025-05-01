@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="relative min-h-[90vh] flex items-center pt-16 pb-8 overflow-hidden"
+      className="relative min-h-[90vh] flex items-center pt-20 pb-8 overflow-hidden"
       ref={sectionRef}
     >
       {/* Background gradient overlay with pattern */}
@@ -48,7 +48,7 @@ const Hero = () => {
         <div className="absolute top-1/2 right-60 h-1/4 w-px bg-white"></div>
       </div>
       
-      <div className="container mx-auto z-10 transition-all duration-700 opacity-0 translate-y-10">
+      <div className="container mx-auto z-10 transition-all duration-700 opacity-100">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 drop-shadow-md">
             A rota certa para o seu crescimento digital no setor logístico.
