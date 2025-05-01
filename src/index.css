@@ -44,6 +44,7 @@
   
   body {
     @apply bg-background text-foreground font-montserrat;
+    scroll-behavior: smooth;
   }
 
   .container {
@@ -57,7 +58,7 @@
   }
   
   .btn-primary {
-    @apply bg-rota-darkBlue text-white hover:bg-rota-mediumBlue focus:ring-rota-mediumBlue;
+    @apply bg-rota-darkBlue text-white hover:bg-rota-mediumBlue focus:ring-rota-mediumBlue shadow-md hover:shadow-lg;
   }
   
   .btn-outline {
@@ -65,18 +66,60 @@
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl font-bold mb-4 text-rota-darkBlue;
+    @apply text-3xl md:text-4xl font-bold mb-4 text-rota-darkBlue relative inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply block absolute -bottom-2 left-0 w-16 h-1 bg-rota-darkBlue rounded;
   }
   
   .section-subtitle {
-    @apply text-lg md:text-xl text-rota-mediumBlue mb-8 max-w-3xl mx-auto;
+    @apply text-lg md:text-xl text-rota-mediumBlue mb-6 max-w-3xl mx-auto;
   }
 
   .section {
-    @apply py-16 md:py-24;
+    @apply py-12 md:py-16;
   }
 
   .card {
-    @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+    @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg border-b-4 border-transparent hover:border-rota-darkBlue;
   }
+  
+  /* Enhanced hover effects */
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1;
+  }
+  
+  .hover-scale {
+    @apply transition-all duration-300 hover:scale-105;
+  }
+}
+
+/* Enhanced animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.clip-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+/* Background patterns */
+.bg-pattern-grid {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230a2c43' fill-opacity='0.05' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-pattern-dots {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230a2c43' fill-opacity='0.05' fill-rule='evenodd'%3E%3Ccircle cx='10' cy='10' r='2'/%3E%3C/g%3E%3C/svg%3E");
 }

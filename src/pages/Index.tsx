@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   useEffect(() => {
-    // Ajuste para scrollar ao elemento ao clicar em links de âncora
+    // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -34,6 +34,9 @@ const Index = () => {
       });
     });
 
+    // Add a CSS class to body for initial animations
+    document.body.classList.add('has-loaded');
+
     return () => {
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.removeEventListener('click', () => {});
@@ -47,9 +50,13 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <WhyUs />
-        <Services />
+        <div className="bg-pattern-grid">
+          <Services />
+        </div>
         <Plans />
-        <Methodology />
+        <div className="bg-pattern-dots">
+          <Methodology />
+        </div>
         <Testimonials />
         <Cta />
       </main>
