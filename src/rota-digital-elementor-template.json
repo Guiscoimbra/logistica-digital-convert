@@ -1,0 +1,1245 @@
+
+{
+  "version": "0.4",
+  "title": "Rota Digital Landing Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "header",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "sticky": "top",
+        "z_index": 999,
+        "background_color": "#0A2C43"
+      },
+      "elements": [
+        {
+          "id": "header-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "logo",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "LOGO_URL",
+                  "alt": "Rota Digital"
+                },
+                "align": "left",
+                "width": {
+                  "size": 160,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "menu",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "layout": "horizontal",
+                "align_items": "right",
+                "menu_items": [
+                  {
+                    "text": "Home",
+                    "link": "#home"
+                  },
+                  {
+                    "text": "Serviços",
+                    "link": "#services"
+                  },
+                  {
+                    "text": "Planos",
+                    "link": "#plans"
+                  },
+                  {
+                    "text": "Metodologia",
+                    "link": "#methodology"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Fale Conosco",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "button_text_color": "#FFFFFF",
+                "background_color": "#0A2C43",
+                "hover_color": "#133B5C",
+                "border_radius": {
+                  "size": 4,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "height": "min-height",
+        "custom_height": {
+          "size": 90,
+          "unit": "vh"
+        },
+        "background_color": "#0A2C43",
+        "background_overlay_color": "#0A2C43",
+        "background_overlay_opacity": {
+          "size": 0.9
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "20",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "content_position": "middle",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A rota certa para o seu crescimento digital no setor logístico.",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "size": 48,
+                  "unit": "px"
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Transforme sua presença online em oportunidades reais de negócio com a agência especialista em marketing para transportadoras e operadores logísticos.</p>",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "size": 20,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "hero-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero impulsionar minha empresa",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "align": "center",
+                "size": "lg",
+                "icon": "fas fa-arrow-right",
+                "icon_position": "right",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#0A2C43",
+                "hover_color": "#133B5C",
+                "border_radius": {
+                  "size": 4,
+                  "unit": "px"
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "30",
+                  "bottom": "15",
+                  "left": "30"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-us",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "background_color": "#F5F7FA"
+      },
+      "elements": [
+        {
+          "id": "why-us-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "why-us-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Por que a Rota Digital?",
+                "align": "center",
+                "title_color": "#0A2C43",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "size": 36,
+                  "unit": "px"
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "why-us-subtitle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Especialização que gera resultados concretos.",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#133B5C",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "size": 20,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "why-us-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Na Rota Digital, respiramos logística. Somos a agência que entende a fundo os desafios do seu segmento e entrega estratégias digitais sob medida para transportadoras, operadores logísticos e empresas de logística que querem crescer de verdade.</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "size": 18,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "why-us-features",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "space_between": {
+                  "size": 20,
+                  "unit": "px"
+                },
+                "icon_color": "#0A2C43",
+                "icon_size": {
+                  "size": 16,
+                  "unit": "px"
+                },
+                "icon_list": [
+                  {
+                    "text": "Foco exclusivo no setor logístico: conhecimento profundo do seu mercado, linguagem e público.",
+                    "icon": "fas fa-target"
+                  },
+                  {
+                    "text": "Resultados mensuráveis: estratégias orientadas a dados, com ROI comprovado.",
+                    "icon": "fas fa-chart-line"
+                  },
+                  {
+                    "text": "Soluções integradas: da captação de leads à gestão do relacionamento com clientes.",
+                    "icon": "fas fa-check"
+                  },
+                  {
+                    "text": "Parceria estratégica: atuamos como extensão do seu negócio, alinhando nossos objetivos aos seus resultados.",
+                    "icon": "fas fa-users"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "why-us-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Fale com um especialista agora",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "align": "center",
+                "background_color": "#0A2C43",
+                "hover_color": "#133B5C",
+                "border_radius": {
+                  "size": 4,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "services-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossos Serviços",
+                "align": "center",
+                "title_color": "#0A2C43",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "size": 36,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "services-subtitle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Soluções digitais completas para logística de alta performance",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#133B5C",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "size": 20,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "services-items",
+              "elType": "section",
+              "settings": {
+                "structure": "30"
+              },
+              "elements": [
+                {
+                  "id": "traffic-column",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "traffic-icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fas fa-route",
+                        "title_text": "Tráfego Pago",
+                        "description_text": "Google Ads e Meta Ads para captar clientes no momento certo.",
+                        "icon_color": "#FFFFFF",
+                        "icon_primary_color": "#0A2C43",
+                        "title_color": "#0A2C43",
+                        "description_color": "#333333",
+                        "icon_size": {
+                          "size": 50,
+                          "unit": "px"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "social-media-column",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "social-media-icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fas fa-mobile-alt",
+                        "title_text": "Social Media",
+                        "description_text": "Gestão profissional e conteúdo estratégico para fortalecer sua marca.",
+                        "icon_color": "#FFFFFF",
+                        "icon_primary_color": "#0A2C43",
+                        "title_color": "#0A2C43",
+                        "description_color": "#333333",
+                        "icon_size": {
+                          "size": 50,
+                          "unit": "px"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "web-dev-column",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "web-dev-icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fas fa-file-code",
+                        "title_text": "Desenvolvimento de Sites",
+                        "description_text": "Páginas institucionais e landing pages otimizadas para conversão.",
+                        "icon_color": "#FFFFFF",
+                        "icon_primary_color": "#0A2C43",
+                        "title_color": "#0A2C43",
+                        "description_color": "#333333",
+                        "icon_size": {
+                          "size": 50,
+                          "unit": "px"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "services-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero saber como funciona",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "align": "center",
+                "background_color": "#0A2C43",
+                "hover_color": "#133B5C",
+                "border_radius": {
+                  "size": 4,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "background_color": "#F5F7FA"
+      },
+      "elements": [
+        {
+          "id": "plans-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "plans-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Planos sob medida para sua empresa",
+                "align": "center",
+                "title_color": "#0A2C43",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "size": 36,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "plans-subtitle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Escolha o plano ideal para o seu momento",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#133B5C",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "size": 20,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "plans-grid",
+              "elType": "section",
+              "settings": {
+                "structure": "30"
+              },
+              "elements": [
+                {
+                  "id": "plan-essential-column",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "plan-essential",
+                      "elType": "widget",
+                      "widgetType": "price-table",
+                      "settings": {
+                        "title": "Rota Essencial",
+                        "description": "Para empresas que buscam estabelecer uma presença digital sólida, gerar leads qualificados e fortalecer a comunicação visual nas principais redes.",
+                        "button_text": "Saiba mais",
+                        "link": {
+                          "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                          "is_external": true
+                        },
+                        "features_list": [
+                          "Campanhas de tráfego pago altamente segmentadas",
+                          "Gestão de social media com conteúdos estratégicos",
+                          "Landing page personalizada para conversão",
+                          "Relatórios semanais",
+                          "Suporte via WhatsApp",
+                          "Reuniões mensais de análise e planejamento",
+                          "Manutenções e atualizações constantes do site",
+                          "Atendimento Humanizado por IA (Contratação à parte)"
+                        ],
+                        "title_color": "#0A2C43",
+                        "button_color": "#FFFFFF",
+                        "button_background_color": "#0A2C43",
+                        "header_background_color": "#FFFFFF",
+                        "button_hover_color": "#FFFFFF",
+                        "button_hover_background_color": "#133B5C"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "plan-advanced-column",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "plan-advanced",
+                      "elType": "widget",
+                      "widgetType": "price-table",
+                      "settings": {
+                        "title": "Rota Avançada",
+                        "description": "Ideal para quem deseja um posicionamento digital abrangente, ferramentas completas de gestão e presença marcante em múltiplos canais.",
+                        "button_text": "Saiba mais",
+                        "link": {
+                          "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                          "is_external": true
+                        },
+                        "features_list": [
+                          "Estratégias avançadas de tráfego pago",
+                          "Social media para Instagram, Facebook e LinkedIn",
+                          "Landing page de alta performance",
+                          "Implementação de CRM personalizado para gestão de leads",
+                          "Design profissional para apresentações e artes gráficas",
+                          "Relatórios semanais detalhados",
+                          "Suporte prioritário via WhatsApp",
+                          "Reuniões mensais estratégicas",
+                          "Atendimento Humanizado por IA (Contratação à parte)"
+                        ],
+                        "title_color": "#FFFFFF",
+                        "title_background_color": "#0A2C43",
+                        "button_color": "#FFFFFF",
+                        "button_background_color": "#0A2C43",
+                        "button_hover_color": "#FFFFFF",
+                        "button_hover_background_color": "#133B5C",
+                        "ribbon": "yes",
+                        "ribbon_title": "Popular",
+                        "ribbon_color": "#FFFFFF",
+                        "ribbon_background_color": "#133B5C"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "plan-operational-column",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "plan-operational",
+                      "elType": "widget",
+                      "widgetType": "price-table",
+                      "settings": {
+                        "title": "Rota Operacional",
+                        "description": "Voltado para empresas de logística que precisam captar profissionais motoristas (agregados, terceiros ou CLT) de forma rápida e assertiva.",
+                        "button_text": "Saiba mais",
+                        "link": {
+                          "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                          "is_external": true
+                        },
+                        "features_list": [
+                          "Campanhas específicas de tráfego pago para atrair motoristas",
+                          "Landing page focada na inscrição e encaminhamento de profissionais",
+                          "Relatórios semanais",
+                          "Suporte via WhatsApp",
+                          "Reuniões mensais",
+                          "Manutenções do site",
+                          "Atendimento Humanizado por IA (Contratação à parte)"
+                        ],
+                        "title_color": "#0A2C43",
+                        "button_color": "#FFFFFF",
+                        "button_background_color": "#0A2C43",
+                        "button_hover_color": "#FFFFFF",
+                        "button_hover_background_color": "#133B5C",
+                        "header_background_color": "#FFFFFF"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "plans-cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero um diagnóstico gratuito",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "align": "center",
+                "background_color": "#0A2C43",
+                "hover_color": "#133B5C",
+                "border_radius": {
+                  "size": 4,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methodology",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "methodology-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "methodology-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Como funciona a Rota Digital",
+                "align": "center",
+                "title_color": "#0A2C43",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "size": 36,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "methodology-subtitle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Metodologia exclusiva para resultados reais",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#133B5C",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "size": 20,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "methodology-steps",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "space_between": {
+                  "size": 30,
+                  "unit": "px"
+                },
+                "icon_color": "#0A2C43",
+                "text_color": "#333333",
+                "icon_size": {
+                  "size": 25,
+                  "unit": "px"
+                },
+                "icon_position": "left",
+                "icon_list": [
+                  {
+                    "text": "<strong>01. Diagnóstico:</strong> Análise profunda do seu negócio, concorrentes e oportunidades digitais no setor logístico.",
+                    "icon": "fas fa-search"
+                  },
+                  {
+                    "text": "<strong>02. Estratégia:</strong> Desenvolvimento de um plano personalizado, combinando social media, campanhas de tráfego pago e desenvolvimento de sites de alta conversão.",
+                    "icon": "fas fa-lightbulb"
+                  },
+                  {
+                    "text": "<strong>03. Implementação:</strong> Execução ágil e técnica das ações, com foco em criar presença digital forte, campanhas segmentadas e páginas otimizadas para conversão.",
+                    "icon": "fas fa-rocket"
+                  },
+                  {
+                    "text": "<strong>04. Monitoramento:</strong> Acompanhamento constante de métricas, performance das redes sociais, resultados das campanhas e desempenho dos sites.",
+                    "icon": "fas fa-chart-line"
+                  },
+                  {
+                    "text": "<strong>05. Otimização:</strong> Ajustes estratégicos contínuos, baseados em dados, para maximizar engajamento, geração de leads e conversão em todas as frentes digitais.",
+                    "icon": "fas fa-cog"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "methodology-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Vamos conversar sobre seu projeto",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "align": "center",
+                "background_color": "#0A2C43",
+                "hover_color": "#133B5C",
+                "border_radius": {
+                  "size": 4,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "background_color": "#0A2C43",
+        "background_overlay_color": "#0A2C43",
+        "background_overlay_opacity": {
+          "size": 0.9
+        }
+      },
+      "elements": [
+        {
+          "id": "testimonials-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "testimonials-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quem já acelerou com a Rota Digital",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "size": 36,
+                  "unit": "px"
+                }
+              }
+            },
+            {
+              "id": "testimonials-carousel",
+              "elType": "widget",
+              "widgetType": "testimonial-carousel",
+              "settings": {
+                "slides": [
+                  {
+                    "content": "O que mais me surpreendeu foi o cuidado da equipe em entender nosso negócio. As campanhas de tráfego trouxeram resultados consistentes, mas o diferencial foi o suporte próximo e as sugestões estratégicas que recebemos ao longo do processo.",
+                    "name": "Rafael Souza",
+                    "title": "Diretor Comercial",
+                    "image": {
+                      "url": "",
+                      "alt": "Rafael Souza"
+                    },
+                    "content_color": "#FFFFFF",
+                    "name_color": "#FFFFFF",
+                    "title_color": "#E6E6E6"
+                  },
+                  {
+                    "content": "A presença da nossa marca nas redes sociais mudou completamente depois do trabalho da Rota Digital. Eles criaram conteúdos que realmente conversam com nosso público e ajudaram a fortalecer nosso posicionamento no setor.",
+                    "name": "Camila Martins",
+                    "title": "Gerente de Marketing",
+                    "image": {
+                      "url": "",
+                      "alt": "Camila Martins"
+                    },
+                    "content_color": "#FFFFFF",
+                    "name_color": "#FFFFFF",
+                    "title_color": "#E6E6E6"
+                  },
+                  {
+                    "content": "Sempre tivemos dificuldade em organizar os contatos e acompanhar os leads. Com a implementação do CRM e o acompanhamento da Rota, conseguimos melhorar muito nosso relacionamento com os clientes e otimizar o tempo da equipe.",
+                    "name": "Eduardo Lima",
+                    "title": "Coordenador de Operações",
+                    "image": {
+                      "url": "",
+                      "alt": "Eduardo Lima"
+                    },
+                    "content_color": "#FFFFFF",
+                    "name_color": "#FFFFFF",
+                    "title_color": "#E6E6E6"
+                  }
+                ],
+                "slide_padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "30",
+                  "bottom": "30",
+                  "left": "30"
+                },
+                "slides_per_view": "1",
+                "slides_to_scroll": "1",
+                "navigation": "dots",
+                "pause_on_hover": "yes",
+                "autoplay": "yes",
+                "autoplay_speed": 5000,
+                "infinite": "yes",
+                "speed": 500,
+                "navigation_color": "#FFFFFF",
+                "content_typography_typography": "custom",
+                "content_typography_font_family": "Open Sans",
+                "content_typography_font_size": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "content_typography_font_weight": "400",
+                "content_typography_font_style": "italic",
+                "name_typography_typography": "custom",
+                "name_typography_font_family": "Montserrat",
+                "name_typography_font_size": {
+                  "size": 18,
+                  "unit": "px"
+                },
+                "name_typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "background_color": "#F5F7FA"
+      },
+      "elements": [
+        {
+          "id": "cta-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "cta-box",
+              "elType": "widget",
+              "widgetType": "call-to-action",
+              "settings": {
+                "title": "Pronto para transformar sua presença digital em crescimento real?",
+                "description": "Fale agora com um especialista da Rota Digital e descubra como podemos impulsionar sua empresa para o próximo nível.",
+                "button_text": "Quero crescer com a Rota Digital",
+                "link": {
+                  "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                  "is_external": true
+                },
+                "button_icon": "fas fa-arrow-right",
+                "background_color": "#0A2C43",
+                "button_color": "#0A2C43",
+                "title_color": "#FFFFFF",
+                "description_color": "#FFFFFF",
+                "button_background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "button_hover_color": "#FFFFFF",
+                "button_hover_background_color": "#133B5C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_color": "#0A2C43",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "20",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-column",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "footer-widgets",
+              "elType": "section",
+              "settings": {
+                "structure": "40"
+              },
+              "elements": [
+                {
+                  "id": "footer-col-1",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "footer-logo",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "LOGO_WHITE_URL",
+                          "alt": "Rota Digital"
+                        },
+                        "width": {
+                          "size": 160,
+                          "unit": "px"
+                        }
+                      }
+                    },
+                    {
+                      "id": "footer-description",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color:#CCCCCC;'>Marketing Digital Especializado para Transportadoras, Operadores Logísticos e Empresas de Logística.</p><p style='color:#FFFFFF; font-weight:500;'>A rota certa do transporte ao embarcador.</p>",
+                        "text_color": "#CCCCCC"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-col-2",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "footer-links-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Links Úteis",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "size": 20,
+                          "unit": "px"
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "footer-links",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "space_between": {
+                          "size": 12,
+                          "unit": "px"
+                        },
+                        "icon_color": "#CCCCCC",
+                        "text_color": "#CCCCCC",
+                        "hover_color": "#FFFFFF",
+                        "icon_list": [
+                          {
+                            "text": "Home",
+                            "link": {
+                              "url": "#home"
+                            }
+                          },
+                          {
+                            "text": "Serviços",
+                            "link": {
+                              "url": "#services"
+                            }
+                          },
+                          {
+                            "text": "Planos",
+                            "link": {
+                              "url": "#plans"
+                            }
+                          },
+                          {
+                            "text": "Metodologia",
+                            "link": {
+                              "url": "#methodology"
+                            }
+                          },
+                          {
+                            "text": "Depoimentos",
+                            "link": {
+                              "url": "#testimonials"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-col-3",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "footer-services-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Serviços",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "size": 20,
+                          "unit": "px"
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "footer-services",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "space_between": {
+                          "size": 12,
+                          "unit": "px"
+                        },
+                        "icon_color": "#CCCCCC",
+                        "text_color": "#CCCCCC",
+                        "icon_list": [
+                          {
+                            "text": "Tráfego Pago"
+                          },
+                          {
+                            "text": "Social Media"
+                          },
+                          {
+                            "text": "Desenvolvimento Web"
+                          },
+                          {
+                            "text": "Implementação de CRM"
+                          },
+                          {
+                            "text": "Design Gráfico"
+                          },
+                          {
+                            "text": "Atendimento Humanizado por IA"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-col-4",
+                  "elType": "column",
+                  "settings": {},
+                  "elements": [
+                    {
+                      "id": "footer-contact-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Contato",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "size": 20,
+                          "unit": "px"
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "footer-contact",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "space_between": {
+                          "size": 15,
+                          "unit": "px"
+                        },
+                        "icon_color": "#CCCCCC",
+                        "text_color": "#CCCCCC",
+                        "hover_color": "#FFFFFF",
+                        "icon_size": {
+                          "size": 16,
+                          "unit": "px"
+                        },
+                        "icon_list": [
+                          {
+                            "text": "(31) 99367-3225",
+                            "icon": "fas fa-phone",
+                            "link": {
+                              "url": "tel:+5531093673225"
+                            }
+                          },
+                          {
+                            "text": "contato@rotadigitalmkt.com",
+                            "icon": "fas fa-envelope",
+                            "link": {
+                              "url": "mailto:contato@rotadigitalmkt.com"
+                            }
+                          },
+                          {
+                            "text": "Belo Horizonte, MG",
+                            "icon": "fas fa-map-marker-alt"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "id": "footer-button",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Fale Conosco",
+                        "link": {
+                          "url": "https://wa.me/5531093673225?text=Ol%C3%A1%20venho%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Rota%20Digital.",
+                          "is_external": true
+                        },
+                        "button_text_color": "#0A2C43",
+                        "background_color": "#FFFFFF",
+                        "hover_color": "#FFFFFF",
+                        "button_background_color": "#FFFFFF",
+                        "button_hover_background_color": "#EEEEEE",
+                        "border_radius": {
+                          "size": 4,
+                          "unit": "px"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "footer-copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align:center; color:#777777; margin-top:30px; padding-top:20px; border-top:1px solid #133B5C;'>&copy; 2025 Rota Digital. Todos os direitos reservados.</p>",
+                "text_color": "#777777",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": 14,
+                  "unit": "px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
